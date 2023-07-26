@@ -1,8 +1,8 @@
 from turtle import *
 
-for i in range(6):
+for i in range(12):
     fd(120)
-    lt(60)
+    lt(360/12)
 
 
 hideturtle()
