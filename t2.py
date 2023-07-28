@@ -13,5 +13,6 @@ for i in range(6):
         for i in range(6):
             lt(60)
             fd(25)
+
 hideturtle()
 mainloop()
