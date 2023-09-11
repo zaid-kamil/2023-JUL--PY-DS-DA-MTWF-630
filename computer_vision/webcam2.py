@@ -13,7 +13,7 @@ cv2.createTrackbar('ypos', 'image', 0, 480, lambda x: x)
 
 while cam.isOpened():
     # capture image from camera
-    state, image = cam.read()
+    state, image = cam.read() 
     if not state: break # if state is none then break loop
     
     # get trackbar values
